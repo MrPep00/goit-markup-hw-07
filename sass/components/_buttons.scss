@@ -1,0 +1,32 @@
+@import "../utils/variables.scss";
+
+.button {
+  cursor: pointer;
+  background-color: $button-color;
+  color: $button-text-color;
+  border: none;
+  border-radius: 4px;
+}
+.title--button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  padding: 10px 20px;
+}
+.modal__close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding: 6px;
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  background: $button-text-color;
+  &:hover {
+    fill: $button-color;
+  }
+}
