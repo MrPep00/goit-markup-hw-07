@@ -569,7 +569,7 @@ portfolio styles
 .project-overlay-box > img {
   display: block;
 }
-.porject-overlay {
+.project-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -586,7 +586,7 @@ portfolio styles
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.porject-overlay__description {
+.project-overlay__description {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.56;
@@ -605,7 +605,7 @@ portfolio styles
 
   box-shadow: 1px 4px 6px 0px #00000029;
 }
-.project-list__item:hover .project-overlay-box {
+.project-list__item:hover .project-overlay {
   transform: translateY(0);
 }
 .project-list__item-description {
