@@ -628,7 +628,7 @@ portfolio styles
 .project-list__item-span {
   text-transform: lowercase;
 }
-.project-list-item-span-caps {
+.project-list__item-span-caps {
   text-transform: uppercase;
 }
 
@@ -647,7 +647,7 @@ portfolio styles
   display: flex;
   gap: 50px;
 }
-.ffooter-address__logo {
+.footer-address__logo {
   color: var(--button-text-color);
   margin: 0px;
 }
@@ -664,7 +664,7 @@ portfolio styles
   text-decoration: none;
   color: #ffffff99;
 }
-.footer-social__header {
+.footer-links__header {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -721,7 +721,7 @@ portfolio styles
   width: 358px;
   color: var(--button-text-color);
 }
-#newsletter-form__email :placeholder-shown {
+#newsletter-form__email:placeholder-shown {
   color: var(--footer-placrholder-color);
 }
 
