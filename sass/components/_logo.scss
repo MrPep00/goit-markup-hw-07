@@ -6,9 +6,10 @@
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
-}
-.logo--blue {
-  color: $button-color;
+
+  &--blue {
+    color: $button-color;
+  }
 }
 
 .footer-address__logo {
