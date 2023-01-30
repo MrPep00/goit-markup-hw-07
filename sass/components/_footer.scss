@@ -4,11 +4,10 @@
   background-color: $background-color;
   line-height: 1.17;
   padding: 60px 0;
-
-  .footer--container {
-    display: flex;
-    gap: 50px;
-  }
+}
+.footer-box {
+  display: flex;
+  gap: 50px;
 }
 
 .footer-address__item {
